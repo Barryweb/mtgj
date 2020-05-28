@@ -1,0 +1,107 @@
+/* 公共樣式 */
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+i,
+em {
+    font-style: normal;
+}
+b,
+strong {
+    font-weight: normal;
+}
+/* 解決高度坍塌 */
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+    height: 0;
+}
+
+/* 頭部 */
+#header {
+    width: 100%;
+    background: white;
+}
+#header .header-content {
+    width: 1141px;
+    height: 104px;
+    margin: 0 auto;
+}
+#header .header-content .logo{
+    width: 400px;
+    height: 104px;
+    background:white;
+    float: left;
+}
+#header .header-content .logo a{
+    float: left;
+    margin-top: 24px;
+}
+#header .header-content .logo .key{
+    float: right;
+    width: 88px;
+    padding-left: 26px;
+    margin-top: 34px;
+    background: url(/img/line1.png) no-repeat left top;
+}
+#header .header-content .logo .key p{
+    font-size: 13px;
+    font-style:italic;
+    color: silver;
+}
+
+/* nav */
+#header .header-content .nav{
+    width: 617px;
+    height: 73px;
+    padding-top: 31px;
+    background:white;
+    float: right;
+}
+
+#header .header-content .nav li{
+    float: left;
+}
+
+#header .header-content .nav a{
+    width: 88px;
+    height: 73px;
+    display: block;
+    text-align: center;
+    line-height: 73px;
+    color: tomato;
+}
+#header .header-content .nav .active a{
+    background: url(/img/navbg.png) no-repeat;
+    color: white;
+
+}
