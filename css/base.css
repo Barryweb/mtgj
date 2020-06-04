@@ -151,6 +151,20 @@ strong {
     height: 60px;
     background:white;
 }
+#main .location .section2 .nav{
+    width: 1127px;
+    margin: 0 auto;
+    height: 60px;
+    text-align: right;
+    line-height: 60px;
+    padding-left: 14px;
+    
+}
+#main .location .section2 .nav a{
+    font-size: 12px;
+    margin-left: 34px;
+    color: gray;
+}
 
 
 
