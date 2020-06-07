@@ -1,7 +1,7 @@
 #main .banner{
     width: 100%;
     height: 458px;
-    background: url(/img/banner.png) center;
+    background: url(./img/banner.png) center;
     background-size: cover;
     
 }
@@ -79,7 +79,7 @@
     background: gray;
 }
 #main .our .show .section i{
-    background: url(/img/img01.png) no-repeat;
+    background: url(./img/img01.png) no-repeat;
     width: 130px;
     height: 130px;
     display: inline-block;
@@ -131,12 +131,12 @@
     height:47px ;
     float: left;
     color: white;
-    background:url(/img/selectbg.png);
+    background:url(./img/selectbg.png);
     line-height: 40px;
     font-size: 14px;
 }
 #main .success .select .active{
-    background: url(/img/select.png);
+    background: url(./img/select.png);
 
 }
 #main .success .fixbox{
