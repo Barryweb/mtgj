@@ -7,7 +7,7 @@
     height: 226px;
     background: red;
     padding-top: 94px;
-    background: url(/img/img3.png) no-repeat left bottom;
+    background: url(../img/img3.png) no-repeat left bottom;
     padding-left: 405px;
 }
 #main .content .section1 h3{
