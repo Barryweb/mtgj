@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC,OAAO,CAAA;EACT,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,cAAc;EACvB,QAAQ,EAAE,MAAM;CAOnB;;AAXD,AAKI,KALC,CAAC,OAAO,CAKT,QAAQ,CAAA;EACJ,KAAK,EAAE,MAAM;CAIhB;;AAVL,AAOQ,KAPH,CAAC,OAAO,CAKT,QAAQ,CAEJ,GAAG,CAAA;EACC,MAAM,EAAE,aAAa;CACxB",
+    "sources": [
+        "succes.scss"
+    ],
+    "names": [],
+    "file": "succes.css"
+}
